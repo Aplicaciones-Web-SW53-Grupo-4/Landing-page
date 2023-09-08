@@ -1,0 +1,28 @@
+.subTitle{
+    color: #390696;
+    text-align: center;
+}
+#about-us{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+.section-about-us{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-about-us{
+    width: 500px;
+    height: 40%px;
+}
+.img-about-us {
+    width: 40%;
+
+}
+.img-about-us img{
+    width: 500px;
+}
