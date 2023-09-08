@@ -17,6 +17,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-direction: row;
     margin-bottom: 20px;
 }
@@ -58,6 +59,9 @@
     align-items: center;
     justify-content: center;
 }
+.card-benefits:hover{
+    scale: 1.1;
+}
 
 .arrow-container{
     width: 40px;
@@ -86,4 +90,13 @@
 .card-text p{
     font-size: 12px;
     text-align: center;
+}
+.card-benefits1{
+    order: 0;
+}
+.card-benefits2{
+    order: 1;
+}
+.card-benefits3{
+    order: 2;
 }

@@ -125,11 +125,11 @@ Rent a car Lima"
             </div>
             <h4>Para propietarios</h4>
           </div>
-          <div class="container-benefits">
-            <div class="arrow-container">
-              <span class="material-symbols-outlined"> arrow_back_ios </span>
+                <div class="arrow-container arrow1-1">
+              <span class="material-symbols-outlined clickeable"> arrow_back_ios </span>
             </div>
-            <div class="card-benefits" id="1">
+          <div class="container-benefits container-benefits1">
+            <div class="card-benefits card-benefits1" id="1">
               <img src="./images/confianza.svg" alt="" />
               <div class="card-text">
                 <h4>Comunidad de Confianza</h4>
@@ -139,7 +139,7 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="card-benefits" id="1">
+            <div class="card-benefits card-benefits2" id="1">
               <img src="./images/condiciones.svg" alt="" />
               <div class="card-text">
                 <h4>Controla tus Condiciones</h4>
@@ -150,7 +150,7 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="card-benefits" id="1">
+            <div class="card-benefits card-benefits3" id="1">
               <img src="./images/dinero.svg" alt="" />
               <div class="card-text">
                 <h4>Gana con Tu Vehículo Extra</h4>
@@ -160,10 +160,10 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="arrow-container">
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </div>
           </div>
+           <div class="arrow-container arrow1-2">
+              <span class="material-symbols-outlined clickeable"> arrow_forward_ios </span>
+            </div>
         </div>
 
         <div class="container-benefits-mode">
@@ -173,11 +173,11 @@ Rent a car Lima"
             </div>
             <h4>Para arrendatarios</h4>
           </div>
-          <div class="container-benefits">
-            <div class="arrow-container">
-              <span class="material-symbols-outlined"> arrow_back_ios </span>
-            </div>
-            <div class="card-benefits" id="1">
+          <div class="arrow-container arrow2-1" >
+            <span class="material-symbols-outlined clickeable"> arrow_back_ios </span>
+          </div>
+          <div class="container-benefits container-benefits2">
+            <div class="card-benefits card-benefits1" id="1">
               <img src="./images/vehiculos 1.svg" alt="" />
               <div class="card-text">
                 <h4>Variedad a tu Elección</h4>
@@ -188,7 +188,7 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="card-benefits" id="1">
+            <div class="card-benefits card-benefits2" id="1">
               <img src="./images/ahorro.svg" alt="" />
               <div class="card-text">
                 <h4>Ahorra en tus Aventuras</h4>
@@ -198,7 +198,7 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="card-benefits" id="1">
+            <div class="card-benefits card-benefits3" id="1">
               <img src="./images/relajado.svg" alt="" />
               <div class="card-text">
                 <h4>Experiencia sin Preocupaciones</h4>
@@ -208,9 +208,9 @@ Rent a car Lima"
                 </p>
               </div>
             </div>
-            <div class="arrow-container">
-              <span class="material-symbols-outlined"> arrow_forward_ios </span>
-            </div>
+          </div>
+          <div class="arrow-container arrow2-2">
+            <span class="material-symbols-outlined clickeable"> arrow_forward_ios </span>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@ Rent a car Lima"
           <div class="title-requeriments">Para Arrendatarios</div>
           <img src="./images/arrendatario.svg" alt="" />
           <div>
-            <span class="material-symbols-outlined icono-requeriments">
+            <span class="material-symbols-outlined icono-requeriments clickeable">
               keyboard_arrow_down
             </span>
           </div>
@@ -232,7 +232,7 @@ Rent a car Lima"
           <div class="title-requeriments">Para Propietarios</div>
           <img src="./images/propietario.svg" alt="" />
           <div>
-            <span class="material-symbols-outlined icono-requeriments">
+            <span class="material-symbols-outlined icono-requeriments clickeable">
               keyboard_arrow_down
             </span>
           </div>
@@ -307,11 +307,11 @@ Rent a car Lima"
         <h4>Contacto</h4>
         <ul>
           <li>
-            <span class="material-symbols-outlined"> location_on </span>Av. la
+            <span class="material-symbols-outlined clickeable"> location_on </span>Av. la
             Marina 2810, San Miguel 15087
           </li>
           <li>
-            <span class="material-symbols-outlined"> mail </span>AutomovilUnit
+            <span class="material-symbols-outlined clickeable" > mail </span>AutomovilUnit
           </li>
         </ul>
       </div>
@@ -320,13 +320,13 @@ Rent a car Lima"
     <script src="./js/script.js"></script>
 
     <script>
-      var acc = document.getElementsByClassName("accordion");
-      var i;
+      let acc = document.getElementsByClassName("accordion");
+      let i;
 
       for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function () {
           this.classList.toggle("active");
-          var panel = this.nextElementSibling;
+          let panel = this.nextElementSibling;
           if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
           } else {
