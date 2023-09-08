@@ -1,0 +1,35 @@
+#requeriments{
+height: 500px;
+background-color: aqua;
+}
+.section-requeriments{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.requeriments-mode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 400px;
+
+}
+.title-requeriments{
+    background-color: black;
+    border-radius: 10px;
+    width: 50%;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icono-requeriments{
+    font-size: 80px;
+}
